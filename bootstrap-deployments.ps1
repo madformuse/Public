@@ -1,0 +1,1 @@
+Write-Host "You've successfully run the bootstrap-deployments script!"
