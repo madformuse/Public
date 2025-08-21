@@ -1,1 +1,1 @@
-Write-Host "You've successfully run the bootstrap-deployments script!"
+Write-Host "You've successfully run the bootstrap-deployments script $(whoami)!"
