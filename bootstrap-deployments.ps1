@@ -7,7 +7,7 @@ $resourcesPath = "$PSScriptRoot\Resources"
 
 # Let's write the resources to file...
 [IO.File]::WriteAllBytes("$resourcesPath.zip", [Convert]::FromBase64String($resourceBase64))
-Expand-Archive -LiteralPath "$resourcesPath.zip" -DestinationPath $resourcesPath
+Expand-Archive -LiteralPath "$resourcesPath.zip" -DestinationPath "."
 
 Write-Host "Hi! Welcome to the Deployments Bootstap script!"
 
