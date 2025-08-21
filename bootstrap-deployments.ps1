@@ -1,2 +1,1 @@
-Write-Host "You've successfully run the bootstrap-deployments script $(whoami)!"
-Write-Host "Another test. How does it update?"
+Write-Host "Hi Oscar!`nDad wrote this to be accessable from anywhere so I can setup new servers without having to upload loads of tools first!"
